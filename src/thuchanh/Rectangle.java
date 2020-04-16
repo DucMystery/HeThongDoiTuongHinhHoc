@@ -1,3 +1,5 @@
+package thuchanh;
+
 public class Rectangle extends Shape {
 
     private double width;

@@ -1,3 +1,5 @@
+package thuchanh;
+
 import java.util.Comparator;
 
 public class RectangleCmparator implements Comparator<Rectangle> {

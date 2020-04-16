@@ -1,3 +1,5 @@
+package thuchanh;
+
 public class Square extends Rectangle {
 
     private double size;

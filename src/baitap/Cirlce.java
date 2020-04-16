@@ -1,4 +1,6 @@
-public class Cirlce extends Shape {
+package baitap;
+
+public class Cirlce extends Shape implements Resizeable {
 
     private double radius;
 
@@ -36,4 +38,8 @@ public class Cirlce extends Shape {
         return "A circle with radius "+this.radius+" which is a subclass of "+super.toString();
     }
 
+    @Override
+    public void resize(double precent) {
+        radius+=precent;
+    }
 }

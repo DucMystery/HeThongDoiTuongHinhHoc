@@ -1,3 +1,5 @@
+package thuchanh;
+
 public class Shape {
 
     String color;

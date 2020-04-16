@@ -1,3 +1,5 @@
+package thuchanh;
+
 import java.util.Arrays;
 import java.util.Comparator;
 
@@ -5,7 +7,7 @@ public class TestRectangleCompa {
 
     public static void main(String[] args) {
 
-        Rectangle [] rectangles = new Rectangle[3];
+        Rectangle[] rectangles = new Rectangle[3];
 
         rectangles[0] = new Rectangle(4,5);
         rectangles[1] = new Rectangle();
